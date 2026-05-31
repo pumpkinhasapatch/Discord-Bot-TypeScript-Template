@@ -57,4 +57,12 @@ export class Args {
             },
         ],
     };
+    public static readonly FANDOM_OPTION: APIApplicationCommandBasicOption = {
+        name: Lang.getRef('arguments.option', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('arguments.option'),
+        description: Lang.getRef('argDescs.fandomOption', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('argDescs.fandomOption'),
+        type: ApplicationCommandOptionType.String,
+    };
+
 }

@@ -1,7 +1,7 @@
 {
     "bot": {
-        "name": "My Bot",
-        "author": "My Name"
+        "name": "Toro Bot",
+        "author": "pumpkinhasapatch"
     },
     "emojis": {
         "yes": "✅",
@@ -23,15 +23,15 @@
         "error": "#ff4a4a"
     },
     "links": {
-        "author": "https://github.com/",
-        "docs": "https://top.gg/",
-        "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=EW389DYYSS4FC",
-        "invite": "https://discord.com/",
-        "source": "https://github.com/",
-        "stream": "https://www.twitch.tv/novakevin",
-        "support": "https://support.discord.com/",
+        "author": "https://github.com/pumpkinhasapatch",
+        "docs": "https://github.com/pumpkinhasapatch/toro-bot",
+        "donate": "https://ko-fi.com/pumpkinhasapatch",
+        "invite": "",
+        "source": "https://github.com/pumpkinhasapatch/toro-bot",
+        "stream": "",
+        "support": "https://discord.gg/bRAjBKTWfr",
         "template": "https://github.com/KevinNovak/Discord-Bot-TypeScript-Template",
-        "terms": "https://github.com/KevinNovak/Discord-Bot-TypeScript-Template/blob/master/LEGAL.md#terms-of-service",
-        "vote": "https://top.gg/"
+        "terms": "https://github.com/pumpkinhasapatch/toro-bot/blob/master/LEGAL.md#terms-of-service",
+        "vote": ""
     }
 }

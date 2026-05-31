@@ -69,6 +69,21 @@ export const ChatCommandMetadata: {
         dm_permission: true,
         default_member_permissions: undefined,
     },
+    FANDOM: {
+        type: ApplicationCommandType.ChatInput,
+        name: Lang.getRef('utilityCommands.fandom', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('utilityCommands.fandom'),
+        description: Lang.getRef('commandDescs.fandom', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('commandDescs.fandom'),
+        dm_permission: true,
+        default_member_permissions: undefined,
+        options: [
+            {
+                ...Args.FANDOM_OPTION,
+                required: true,
+            },
+        ],
+    },
 };
 
 export const MessageCommandMetadata: {

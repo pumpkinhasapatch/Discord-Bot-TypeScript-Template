@@ -69,12 +69,9 @@
                         "name": "{{REF:fields.links}}",
                         "value": [
                             "{{REF:links.sourceEmbed}}",
-                            "{{REF:links.docsEmbed}}",
                             "{{REF:links.termsEmbed}}",
-                            "{{REF:links.voteEmbed}}",
                             "{{REF:links.donateEmbed}}",
-                            "{{REF:links.supportEmbed}}",
-                            "{{REF:links.inviteEmbed}}"
+                            "{{REF:links.supportEmbed}}"
                         ]
                     },
                     {
@@ -122,6 +119,17 @@
                             "**Server ID**: {{SERVER_ID}}",
                             "**Bot ID**: {{BOT_ID}}",
                             "**User ID**: {{USER_ID}}"
+                        ]
+                    }
+                ]
+            },
+            "fandomResults": {
+                "title": "Doko Demo Issyo Wiki",
+                "fields": [
+                    {
+                        "name": "Search results for {{QUERY}}",
+                        "value": [
+                            "{{RESULTS}}"
                         ]
                     }
                 ]
@@ -183,16 +191,21 @@
     },
     "refs": {
         "meta": {
-            "translators": "[TranslatorName#1234](https://github.com/)"
+            "translators": "[pumpkinhasapatch](https://github.com/pumpkinhasapatch)"
         },
         "bot": {
-            "description": "{{REF:links.templateEmbed}} helps give developers a starting point for new Discord bots, so that much of the initial setup can be avoided and developers can instead focus on meaningful bot features."
+            "description": "{{COM:bot.name}} is a Toro Inoue / Doko Demo Issyo themed Discord bot. It features an AI chatbot, Toro Station episode browser and more."
         },
         "chatCommands": {
             "dev": "dev",
             "help": "help",
             "info": "info",
             "test": "test"
+        },
+        "utilityCommands": {
+            "fandom": "fandom",
+            "torostation": "torostation",
+            "randompost": "randompost"
         },
         "userCommands": {
             "viewDateJoined": "View Date Joined"
@@ -208,12 +221,14 @@
             "dev": "Developer use only.",
             "help": "Find help or contact support.",
             "info": "View bot info.",
-            "test": "Run the test command."
+            "test": "Run the test command.",
+            "fandom": "Search the Fandom wiki."
         },
         "argDescs": {
             "devCommand": "Command.",
             "helpOption": "Option.",
-            "infoOption": "Option."
+            "infoOption": "Option.",
+            "fandomOption": "Option."
         },
         "fields": {
             "commands": "Commands",
@@ -301,14 +316,11 @@
         },
         "links": {
             "authorEmbed": "[{{COM:bot.author}}]({{COM:links.author}})",
-            "docsEmbed": "[View Documentation]({{COM:links.docs}})",
-            "donateEmbed": "[Donate via PayPal]({{COM:links.donate}})",
-            "inviteEmbed": "[Invite {{COM:bot.name}} to a Server!]({{COM:links.invite}})",
+            "donateEmbed": "[Donate via Ko-Fi]({{COM:links.donate}})",
             "sourceEmbed": "[View Source Code]({{COM:links.source}})",
             "supportEmbed": "[Join Support Server]({{COM:links.support}})",
             "templateEmbed": "[Discord Bot TypeScript Template]({{COM:links.template}})",
-            "termsEmbed": "[View Terms of Service]({{COM:links.terms}})",
-            "voteEmbed": "[Vote for {{COM:bot.name}}!]({{COM:links.vote}})"
+            "termsEmbed": "[View Terms of Service]({{COM:links.terms}})"
         }
     }
 }

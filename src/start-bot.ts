@@ -4,6 +4,7 @@ import { createRequire } from 'node:module';
 
 import { Button } from './buttons/index.js';
 import { DevCommand, HelpCommand, InfoCommand, TestCommand } from './commands/chat/index.js';
+import { FandomCommand } from './commands/utility/index.js';
 import {
     ChatCommandMetadata,
     Command,
@@ -69,6 +70,7 @@ async function start(): Promise<void> {
         new ViewDateJoined(),
 
         // TODO: Add new commands here
+        new FandomCommand(),
     ];
 
     // Buttons
